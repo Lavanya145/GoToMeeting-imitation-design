@@ -1,0 +1,209 @@
+body{
+	background-image: url(bck.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: 1280px 800px;
+}
+
+.row1{
+	height: 50px;
+	background-color: #4d4d4d;
+}
+
+.row2{
+	background-color: white;
+	border: 1px double grey;
+	height: 60px;
+}
+
+
+.logo>img{
+	float: left;
+	height: 50px;
+	width: 5%;
+}
+
+.phone, .support, .signin, .more{
+	float: right;
+	color: white;
+	margin: 0px;
+	padding: 15px; 
+	text-align: center;
+}
+
+.phone:hover , .support:hover, .signin:hover, .more:hover{
+	background-color: black;
+}
+
+.logo1>img{
+	float: left;
+	height: 60px;
+	width: 17%;
+}
+
+.features, .plans, .res{
+	float: right;
+	padding: 15px;
+	text-align: center;
+	color: grey;
+	font-weight: 500;
+	height: 46%;
+}
+
+.join, .host{
+	float: right;
+	padding: 15px;
+	text-align: center;
+	color: grey;
+	font-weight: 500;
+	color:  #e65c00;
+	background-color: #e6e6e6;
+	height: 46%;
+}
+
+.features:hover, .plans:hover, .res:hover{
+	/*border: 2px solid grey;*/
+	border-bottom: 2px solid grey;
+}
+
+ .join:hover, .host:hover{
+ 	background-color: #cccccc;
+ 	border-bottom: 2px solid  #e65c00;	
+ }
+
+ .rightDiv{
+ 	background-color: white;
+ 	line-height: 10px;
+ }
+
+ .trial{
+ 	border: 2px solid grey;
+ }
+
+ .op{
+ 	 background-color: rgba(255,255,255,0.8);
+ 	 width: 40%;
+ 	margin-right: 0;
+ 	text-align: center;
+ 	margin-top: 5%;
+ 	margin-left: 50%;
+ 	margin-bottom: 5%;
+ }
+
+ .trial{
+ 	padding: 3%;
+ 	background-color: #e65c00;
+ 	font-weight: 600;
+ 	color: white;
+ }
+
+  .trial:hover{
+  	background-color: #ffb31a;
+  }
+
+  #em, #pw, #fn, #ln{
+  	/*height: 30px;*/
+  }
+
+.hor{
+	background-color: rgba(60, 60, 60, 0.5);
+	height: 150px;
+	color: white;
+	font-weight: 500;
+	text-align: center;
+	
+}
+.hor1{
+	/*height: 150px;*/
+}
+
+.r1, .r2, .r3{
+	width: 33%;
+	float: left;
+	padding: 0.1%;
+	text-align: center;
+}
+.one, .two, .three{
+	padding-top: 5%;
+	width: 33%;
+	float: left;
+}
+
+.one:hover, .two:hover, .three:hover{
+	background-color: #262626;
+	height: 88px;
+}
+
+  .footerDiv{
+  	height: 30px;
+  	background-color: #333333;
+  	color: white;
+  	text-align: left;
+  	padding: 15px;
+  	font-weight: 300;
+  }
+
+  .third{
+  	background-color: white;
+  	height: 1550px;
+  }
+
+  hr { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+    color: black;
+}
+
+.third_left{
+	float: left;
+	width: 35%;
+	text-align: left;
+	margin-left: 20px;
+}
+.third_right{
+	float: left;
+	margin-left: 50px;
+}
+
+.fourth{
+	background-color: grey;
+	height: 250px;
+	color: white;
+}
+
+.fone, .ftwo, .fthree{
+	padding-top: 5%;
+	padding-left: 2%;
+	width: 30%;
+	float: left;
+	text-align: center;
+}
+input	{
+	padding:12px;
+	margin:0;
+	border:0;
+}
+.width50	{
+	width: 50%;
+	padding-right: 0;
+	padding-left: 0;
+	float: left;
+}
+.firstName	{
+	width: 98%;
+    height: 2.75rem;
+    padding: .375rem;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    border-top: 1px solid #cbcaca;
+    border-left: 1px solid #cbcaca;
+    border-bottom: 1px solid #cbcaca;
+    padding-left: 25px;
+}
